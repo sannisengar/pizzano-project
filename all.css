@@ -1,0 +1,236 @@
+.navbar {
+    background: black !important;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+.navbar-nav li {
+    margin: 0px 25px;
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    margin-bottom: -10px;
+}
+
+.navbar-nav li:hover {
+    background: darkblue;
+    border-radius: 20px;
+    box-shadow: 5px red;
+}
+
+.navbar-nav li a {
+    color: darkorange !important;
+    font-weight: 500;
+}
+
+@media(max-width:768px) {
+    .navimg {
+        display: none;
+    }
+
+    .navbar {
+        background: skyblue !important;
+    }
+}
+
+.img {
+    border-radius: 91px;
+    width: 70px;
+    height: 65px;
+}
+
+.pizza {
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home {
+    align-items: center;
+    background: linear-gradient(90deg, rgba(0, 0, 0, .9), rgba(68, 68, 68, .35)),
+        url(image/home-img.965e18e60a1521e7e1af);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    min-height: 100vh;
+}
+
+.ab {
+    margin-top: 64px;
+    background: white;
+}
+
+.image {
+    width: 100%;
+    height: 197px;
+}
+
+.image:hover {
+    cursor: pointer;
+}
+
+.rate {
+    font-size: 19px;
+    position: relative;
+    left: 23px;
+    top: -4px;
+    display: flex;
+    align-items: center;
+}
+
+.sta {
+    background: green;
+    color: white;
+    border-radius: 13px;
+}
+
+.download-banner {
+    background-color: #d3d3d3;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.app-img {
+    max-width: 200px;
+    margin: 10px;
+}
+
+.site-footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.site-header {
+    background: orange;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.site-header:hover {
+    cursor: pointer;
+    background: yellowgreen;
+}
+
+.site-title {
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    color: black;
+}
+
+.main-nav .nav-list {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-nav .nav-list:hover {
+    color: red;
+}
+
+.nav-item {
+    display: inline;
+    margin: 0 1rem;
+}
+.content{
+    padding: 1rem;
+}
+.food-item{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.food-image{
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+.responsive-container{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: lightseagreen;
+}
+.About2{
+    text-align: center;
+    margin-top: 126px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+.About3{
+    font-size: 20px;
+    position: relative;
+    left: 1px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.aboutd {
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+
+.aboutdd {
+    line-height: 40px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    margin-top: 20px;
+    font-weight: lighter;
+    padding-bottom: 2cm;
+}
+.respon{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alsdkl{
+    
+    font-size: 23px;
+    font-weight: 600;
+    color: black;
+    border-radius: 29px;
+    border: solid rgba(56, 59, 62, 0.17);
+    border: solid rgba(132, 136, 144, 0.17);
+    margin-right: 15px;
+    width: 229px;
+}
+.alsdkl:hover{
+background: orangered;
+}
+
+.cara {
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 2px;
+    font-size: 1.2cm;
+}
+
+.carb {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 25px;
+    font-weight: lighter;
+    font-size: 18px;
+}
